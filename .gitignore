@@ -1,2 +1,34 @@
 /.cuda-name
 /build
+
+# Python cache artifacts
+**/__pycache__/
+*.py[cod]
+
+# Virtual environment
+/.venv/
+
+# Local tool caches
+/.hf_cache/
+/.omc/
+
+# Packaging artifacts
+*.egg-info/
+
+# External dependencies
+/robocasa-cosmos-policy/
+
+# Experiment outputs (results/logs/data)
+/benchmark/results/
+/benchmark/robocasa_results/
+/benchmark/libero_results/
+/benchmark/*.log
+/benchmark/*.txt
+/benchmark/**/*.log
+/benchmark/**/*.csv
+/rollouts/
+/cosmos_policy/experiments/robot/libero/logs/
+/cosmos_policy/experiments/robot/robocasa/logs/
+
+# Docs - keep architecture refs, ignore papers
+/docs/paper/
